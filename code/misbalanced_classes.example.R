@@ -13,7 +13,7 @@ test <- parts[[2]]
 
 
 
-splits = h2o.splitFrame(d,0.8,c("train","test"), seed=77)
+splits = h2o.splitFrame(data,0.8,c("train","test"), seed=77)
 train = splits[[1]]
 test = splits[[2]]
 summary(train$Species)  #41/41/14
