@@ -32,7 +32,10 @@
     load.mnist.R
     load.mnist.reproducible.py
     load.mnist.reproducible.R
+    load.mnist_enhanced.py
+    load.mnist_enhanced.R
     mnist_manipulation.py
+    mnist_enhancer.R
 
 ###chapter 4
 
@@ -65,6 +68,11 @@
     gbm.building_energy.default.R
     gbm.building_energy.default.reproducible.py
     gbm.building_energy.default.reproducible.R
+
+
+###chapter 8
+    football_helper.R
+
 
 ###chapter 9
 
