@@ -7,12 +7,6 @@ data <- h2o.importFile(paste0(datasets,"iris_wheader.csv"))
 data <- data[1:120,]  #Remove 60% of virginica
 h2o.summary(data$class)  #50/50/20
 
-parts <- h2o.splitFrame(data, 0.8)
-train <- parts[[1]]
-test <- parts[[2]]
-
-
-
 splits = h2o.splitFrame(data,0.8,c("train","test"), seed=77)
 train = splits[[1]]
 test = splits[[2]]
