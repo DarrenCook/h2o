@@ -58,6 +58,7 @@
     random_forest.mnist.default.py
     random_forest.mnist.default.R
     random_forest.mnist.default.reproducible.py
+    makeplot.building_energy_results.R
 
 ###chapter 6
 
